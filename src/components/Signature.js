@@ -1,6 +1,13 @@
 import React from 'react'
 
-const Signature = ({ firstName, lastName, post, address, phone, email }) => (
+const Signature = ({
+  firstName,
+  lastName,
+  position,
+  address,
+  phone,
+  email,
+}) => (
   <div style={{ overflow: 'hidden', textAlign: 'left' }}>
     <div>
       <br />
@@ -26,6 +33,7 @@ const Signature = ({ firstName, lastName, post, address, phone, email }) => (
                     display: 'block',
                     width: '120px',
                     marginLeft: '2px',
+                    textDecoration: 'none',
                   }}
                 />
               </a>
@@ -34,67 +42,32 @@ const Signature = ({ firstName, lastName, post, address, phone, email }) => (
               <table>
                 <tbody>
                   <tr>
-                    <td style={{ minWidth: '250px', paddingLeft: '10px' }}>
-                      <a
+                    <td
+                      style={{
+                        minWidth: '250px',
+                        paddingLeft: '10px',
+                        color: '#333333',
+                        fontFamily: 'Arial,sans-serif',
+                        fontSize: '12px',
+                        fontWeight: 'bold',
+                      }}
+                    >
+                      {`${firstName} ${lastName.toUpperCase()}`}
+                      <div
                         style={{
-                          textDecoration: 'none',
-                          color: '#333333',
-                          fontFamily: 'Arial,sans-serif',
-                          fontSize: '12px',
-                          fontWeight: 'bold',
+                          marginTop: '5px',
+                          color: '#BD4932',
+                          fontWeight: 'normal',
                         }}
-                        href="https://www.smooth-code.com/trainers/jeremy-sfez"
-                        target="_blank"
-                        rel="noopener noreferrer"
                       >
-                        {`${firstName} ${lastName.toUpperCase()}`}
-                        <div
-                          style={{
-                            marginTop: '5px',
-                            color: '#BD4932',
-                            fontWeight: 'normal',
-                          }}
-                        >
-                          {post}
-                        </div>
-                      </a>
+                        {position}
+                      </div>
                     </td>
                   </tr>
                   <tr>
                     <td style={{ paddingLeft: '10px' }}>
                       <table>
                         <tbody>
-                          {email && (
-                            <tr>
-                              <td style={{ paddingRight: '5px' }}>
-                                <img
-                                  alt=""
-                                  src="https://res.cloudinary.com/smooth/image/upload/v1539015528/envelope_lit95n.svg"
-                                  style={{
-                                    borderStyle: 'none',
-                                    minWidth: '15px',
-                                    height: '15px',
-                                    marginRight: '5px',
-                                    border: '0',
-                                    width: '15px',
-                                  }}
-                                />
-                              </td>
-                              <td>
-                                <a
-                                  style={{
-                                    textDecoration: 'none',
-                                    color: '#333333',
-                                    fontFamily: 'Arial,sans-serif',
-                                    fontSize: '12px',
-                                  }}
-                                  href={`mailto:${email}`}
-                                >
-                                  {email}
-                                </a>
-                              </td>
-                            </tr>
-                          )}
                           {address && (
                             <tr>
                               <td style={{ paddingRight: '5px' }}>
@@ -105,25 +78,19 @@ const Signature = ({ firstName, lastName, post, address, phone, email }) => (
                                     borderStyle: 'none',
                                     width: '15px',
                                     height: '15px',
-                                    marginRight: '5px',
                                     border: '0',
                                   }}
                                 />
                               </td>
-                              <td>
-                                <a
-                                  style={{
-                                    textDecoration: 'none',
-                                    color: '#333333',
-                                    fontFamily: 'Arial,sans-serif',
-                                    fontSize: '12px',
-                                  }}
-                                  href="https://goo.gl/uM2Dh3"
-                                  target="_blank"
-                                  rel="noopener noreferrer"
-                                >
-                                  {address}
-                                </a>
+                              <td
+                                style={{
+                                  textDecoration: 'none',
+                                  color: '#333333',
+                                  fontFamily: 'Arial,sans-serif',
+                                  fontSize: '12px',
+                                }}
+                              >
+                                {address}
                               </td>
                             </tr>
                           )}
@@ -137,23 +104,19 @@ const Signature = ({ firstName, lastName, post, address, phone, email }) => (
                                     borderStyle: 'none',
                                     width: '15px',
                                     height: '15px',
-                                    marginRight: '5px',
                                     border: '0',
                                   }}
                                 />
                               </td>
-                              <td>
-                                <a
-                                  style={{
-                                    textDecoration: 'none',
-                                    color: '#333333',
-                                    fontFamily: 'Arial,sans-serif',
-                                    fontSize: '12px',
-                                  }}
-                                  href={`tel:${phone}`}
-                                >
-                                  {phone}
-                                </a>
+                              <td
+                                style={{
+                                  textDecoration: 'none',
+                                  color: '#333333',
+                                  fontFamily: 'Arial,sans-serif',
+                                  fontSize: '12px',
+                                }}
+                              >
+                                {phone}
                               </td>
                             </tr>
                           )}
@@ -187,7 +150,7 @@ const Signature = ({ firstName, lastName, post, address, phone, email }) => (
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Découvrez les dernières réalisations de l'agence
+                  Découvrez les dernières réalisations du studio
                   <img
                     alt=""
                     src="https://res.cloudinary.com/smooth/image/upload/v1539015320/external-link-icon_wdqdzg.svg"

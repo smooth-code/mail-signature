@@ -3,12 +3,11 @@ import { Grid, Row, Col, Typography, Input } from '@smooth-ui/core-sc'
 import Signature from './components/Signature'
 
 const App = () => {
-  const [firstName, setFirstName] = useState('Jeremy')
-  const [lastName, setLastName] = useState('Sfez')
-  const [email, setEmail] = useState('jeremy@smooth-code.com')
+  const [firstName, setFirstName] = useState('Prénom')
+  const [lastName, setLastName] = useState('Nom')
   const [phone, setPhone] = useState('09 82 37 73 08')
   const [address, setAddress] = useState('41 rue Réaumur - 75003 Paris')
-  const [post, setPost] = useState('DG')
+  const [position, setPosition] = useState('')
 
   return (
     <Grid>
@@ -41,21 +40,10 @@ const App = () => {
             <Col mx={2} mb={2}>
               <Input
                 width={1}
-                label="email"
-                placeholder="Email"
-                value={email}
-                onChange={e => setEmail(e.target.value)}
-              />
-            </Col>
-          </Row>
-          <Row>
-            <Col mx={2} mb={2}>
-              <Input
-                width={1}
                 label="post"
-                placeholder="Post"
-                value={post}
-                onChange={e => setPost(e.target.value)}
+                placeholder="Job title"
+                value={position}
+                onChange={e => setPosition(e.target.value)}
               />
             </Col>
           </Row>
@@ -86,10 +74,9 @@ const App = () => {
           <Signature
             firstName={firstName}
             lastName={lastName}
-            email={email}
             phone={phone}
             address={address}
-            post={post}
+            position={position}
           />
         </Col>
       </Row>
