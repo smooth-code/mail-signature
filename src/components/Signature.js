@@ -73,11 +73,11 @@ const Signature = ({
                               <td style={{ paddingRight: '5px' }}>
                                 <img
                                   alt=""
-                                  src="https://res.cloudinary.com/smooth/image/upload/v1539015595/placeholder_1_ah6sr3.svg"
+                                  src="https://res.cloudinary.com/smooth/image/upload/e_trim,c_scale,w_16,h_16,dpr_2/v1539015595/mail-signature/location-icon.svg"
                                   style={{
                                     borderStyle: 'none',
-                                    width: '15px',
-                                    height: '15px',
+                                    width: '16px',
+                                    height: '16px',
                                     border: '0',
                                   }}
                                 />
@@ -99,11 +99,11 @@ const Signature = ({
                               <td style={{ paddingRight: '5px' }}>
                                 <img
                                   alt=""
-                                  src="https://res.cloudinary.com/smooth/image/upload/v1539025150/phone-receiver_1_xnjgcs.svg"
+                                  src="https://res.cloudinary.com/smooth/image/upload/e_trim,c_scale,w_16,h_16,dpr_2/v1539025150/mail-signature/phone-icon.svg"
                                   style={{
                                     borderStyle: 'none',
-                                    width: '15px',
-                                    height: '15px',
+                                    width: '16px',
+                                    height: '16px',
                                     border: '0',
                                   }}
                                 />
@@ -153,10 +153,11 @@ const Signature = ({
                   Découvrez les dernières réalisations du studio
                   <img
                     alt=""
-                    src="https://res.cloudinary.com/smooth/image/upload/v1539015320/external-link-icon_wdqdzg.svg"
+                    src="https://res.cloudinary.com/smooth/image/upload/e_trim,c_scale,w_16,h_16,dpr_2/v1539015320/mail-signature/external-link-icon.svg"
                     style={{
                       borderStyle: 'none',
-                      height: '15px',
+                      width: '16px',
+                      height: '16px',
                       float: 'right',
                       border: '0',
                     }}
