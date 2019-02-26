@@ -12,7 +12,7 @@ const App = () => {
   return (
     <Grid>
       <Row display="flex" justifyContent="center" mb={90} mt={45}>
-        <Typography variant="h1">signature smooth-code</Typography>
+        <Typography variant="h1">Smooth Code - Mail signature</Typography>
       </Row>
       <Row>
         <Col>
