@@ -26,8 +26,8 @@ const Signature = ({
                 rel="noopener noreferrer"
               >
                 <img
-                  alt="smooth-code logo"
-                  src="https://res.cloudinary.com/smooth/image/upload/v1532531188/logo-vertical_2x_z74fq7.png"
+                  alt="Smooth Code"
+                  src="https://res.cloudinary.com/smooth/image/upload/c_scale,w_120,dpr_2/v1532531188/mail-signature/smooth-code-logo.png"
                   style={{
                     borderStyle: 'none',
                     display: 'block',
