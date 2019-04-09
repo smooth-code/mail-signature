@@ -11,6 +11,7 @@ const Signature = ({
   <div style={{ overflow: 'hidden', textAlign: 'left' }}>
     <div>
       <br />
+      <br />
       <table>
         <tbody>
           <tr>
@@ -73,7 +74,7 @@ const Signature = ({
                               <td style={{ paddingRight: '5px' }}>
                                 <img
                                   alt=""
-                                  src="https://res.cloudinary.com/smooth/image/upload/e_trim,c_scale,w_16,h_16,dpr_2/v1539015595/mail-signature/location-icon.svg"
+                                  src="https://res.cloudinary.com/smooth/image/upload/c_scale,w_16/v1551204730/mail-signature/location-icon.png"
                                   style={{
                                     borderStyle: 'none',
                                     width: '16px',
@@ -99,7 +100,7 @@ const Signature = ({
                               <td style={{ paddingRight: '5px' }}>
                                 <img
                                   alt=""
-                                  src="https://res.cloudinary.com/smooth/image/upload/e_trim,c_scale,w_16,h_16,dpr_2/v1539025150/mail-signature/phone-icon.svg"
+                                  src="https://res.cloudinary.com/smooth/image/upload/c_scale,w_16/v1551204730/mail-signature/phone-icon.png"
                                   style={{
                                     borderStyle: 'none',
                                     width: '16px',
@@ -153,7 +154,7 @@ const Signature = ({
                   Découvrez les dernières réalisations du studio
                   <img
                     alt=""
-                    src="https://res.cloudinary.com/smooth/image/upload/e_trim,c_scale,w_16,h_16,dpr_2/v1539015320/mail-signature/external-link-icon.svg"
+                    src="https://res.cloudinary.com/smooth/image/upload/c_scale,w_16/v1551204730/mail-signature/external-link-icon.png"
                     style={{
                       borderStyle: 'none',
                       width: '16px',
@@ -163,6 +164,20 @@ const Signature = ({
                     }}
                   />
                 </a>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <div
+                style={{
+                  backgroundColor: '#FFFFFF',
+                  width: '400px',
+                  padding: '10px',
+                  marginTop: '5px',
+                }}
+              >
+                ---
               </div>
             </td>
           </tr>
