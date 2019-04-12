@@ -28,7 +28,7 @@ const Signature = ({
               >
                 <img
                   alt="Smooth Code"
-                  src="https://res.cloudinary.com/smooth/image/upload/c_scale,w_120,dpr_2/v1532531188/mail-signature/smooth-code-logo.png"
+                  src="https://res.cloudinary.com/smooth/image/upload/c_pad,w_120,dpr_2/v1532531188/mail-signature/smooth-code-logo.png"
                   style={{
                     borderStyle: 'none',
                     display: 'block',
@@ -74,7 +74,7 @@ const Signature = ({
                               <td style={{ paddingRight: '5px' }}>
                                 <img
                                   alt=""
-                                  src="https://res.cloudinary.com/smooth/image/upload/c_scale,w_16/v1551204730/mail-signature/location-icon.png"
+                                  src="https://res.cloudinary.com/smooth/image/upload/w_16,h_16,dpr_2/v1539015595/mail-signature/location-icon.png"
                                   style={{
                                     borderStyle: 'none',
                                     width: '16px',
@@ -100,7 +100,7 @@ const Signature = ({
                               <td style={{ paddingRight: '5px' }}>
                                 <img
                                   alt=""
-                                  src="https://res.cloudinary.com/smooth/image/upload/c_scale,w_16/v1551204730/mail-signature/phone-icon.png"
+                                  src="https://res.cloudinary.com/smooth/image/upload/w_16,h_16,dpr_2/v1539025150/mail-signature/phone-icon.png"
                                   style={{
                                     borderStyle: 'none',
                                     width: '16px',
@@ -154,7 +154,7 @@ const Signature = ({
                   Découvrez les dernières réalisations du studio
                   <img
                     alt=""
-                    src="https://res.cloudinary.com/smooth/image/upload/c_scale,w_16/v1551204730/mail-signature/external-link-icon.png"
+                    src="https://res.cloudinary.com/smooth/image/upload/w_16,h_16,dpr_2/v1539015320/mail-signature/external-link-icon.png"
                     style={{
                       borderStyle: 'none',
                       width: '16px',
